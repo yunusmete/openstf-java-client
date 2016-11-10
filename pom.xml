@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>STFAppiumTest</groupId>
-    <artifactId>com.netas.stf</artifactId>
+    <groupId>openstf-java-client</groupId>
+    <artifactId>com.mete.yunus.stf</artifactId>
     <version>1.0-SNAPSHOT</version>
 
 
