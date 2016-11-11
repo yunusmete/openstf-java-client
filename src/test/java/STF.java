@@ -1,10 +1,10 @@
 import java.util.List;
 
-import com.mete.yunus.stf.api.STFService;
-import com.mete.yunus.stf.api.ServiceGenerator;
-import com.mete.yunus.stf.model.Device;
-import com.mete.yunus.stf.model.DeviceBody;
-import com.mete.yunus.stf.rest.DeviceResponse;
+import com.github.yunusmete.stf.api.STFService;
+import com.github.yunusmete.stf.api.ServiceGenerator;
+import com.github.yunusmete.stf.model.Device;
+import com.github.yunusmete.stf.model.DeviceBody;
+import com.github.yunusmete.stf.rest.DeviceResponse;
 
 /**
  * Created by yunusm on 07.11.2016.
