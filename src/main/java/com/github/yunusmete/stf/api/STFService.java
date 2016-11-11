@@ -1,13 +1,13 @@
 
-package com.mete.yunus.stf.api;
+package com.github.yunusmete.stf.api;
 
+import com.github.yunusmete.stf.model.DeviceBody;
+import com.github.yunusmete.stf.rest.RemoteConnectResponse;
+import com.github.yunusmete.stf.rest.UserResponse;
 import retrofit.http.*;
 
-import com.mete.yunus.stf.model.DeviceBody;
-import com.mete.yunus.stf.rest.ClaimResponse;
-import com.mete.yunus.stf.rest.DeviceResponse;
-import com.mete.yunus.stf.rest.RemoteConnectResponse;
-import com.mete.yunus.stf.rest.UserResponse;
+import com.github.yunusmete.stf.rest.ClaimResponse;
+import com.github.yunusmete.stf.rest.DeviceResponse;
 
 /**
  * Created by yunusm on 07.11.2016.
@@ -15,6 +15,12 @@ import com.mete.yunus.stf.rest.UserResponse;
 public interface STFService {
 
    // DEVICE API
+
+   /**
+    * Get list of devices
+    * 
+    * @return list of devices
+    */
    @GET("/devices")
    DeviceResponse getDevices();
 

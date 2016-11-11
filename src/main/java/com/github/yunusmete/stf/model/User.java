@@ -1,5 +1,5 @@
 
-package com.mete.yunus.stf.model;
+package com.github.yunusmete.stf.model;
 
 /**
  * Created by yunusm on 10.11.2016.

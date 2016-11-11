@@ -1,12 +1,12 @@
 
-package com.mete.yunus.stf.rest;
+package com.github.yunusmete.stf.rest;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-import com.mete.yunus.stf.model.Device;
+import com.github.yunusmete.stf.model.Device;
 
 /**
  * Created by yunusm on 08.11.2016.

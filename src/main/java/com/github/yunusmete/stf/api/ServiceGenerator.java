@@ -1,5 +1,5 @@
 
-package com.mete.yunus.stf.api;
+package com.github.yunusmete.stf.api;
 
 import retrofit.RequestInterceptor;
 import retrofit.RestAdapter;

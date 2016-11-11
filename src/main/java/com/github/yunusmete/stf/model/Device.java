@@ -1,5 +1,5 @@
 
-package com.mete.yunus.stf.model;
+package com.github.yunusmete.stf.model;
 
 import java.util.ArrayList;
 import java.util.List;

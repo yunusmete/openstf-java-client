@@ -1,5 +1,5 @@
 
-package com.mete.yunus.stf.rest;
+package com.github.yunusmete.stf.rest;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
