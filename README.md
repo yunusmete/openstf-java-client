@@ -4,7 +4,7 @@ STF Java Client
 
 https://github.com/openstf/stf
 
-### License [![license for openstf-java-client](http://img.shields.io/:license-apache-blue.svg?style=flat-square)](#)
+### License [![License for Openstf-Java-Client](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
     Copyright 2016 Yunus Mete, Turkey.
     
