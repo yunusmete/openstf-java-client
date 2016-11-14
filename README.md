@@ -1,6 +1,7 @@
 # openstf-java-client
 
-STF Java Client
+## STF Java Client
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.yunusmete.stf/openstf-java-client/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.yunusmete.stf/openstf-java-client/)
 
 https://github.com/openstf/stf
 
