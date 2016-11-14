@@ -4,9 +4,9 @@ STF Java Client
 
 https://github.com/openstf/stf
 
-### License [![license for openstf-java-client](https://img.shields.io/crates/l/rustc-serialize.svg)](#)
+### License [![license for openstf-java-client](http://img.shields.io/:license-apache-blue.svg?style=flat-square)](#)
 
-    Copyright 2016 Beloy Oleg, Ukraine.
+    Copyright 2016 Yunus Mete, Turkey.
     
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
