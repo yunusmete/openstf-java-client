@@ -5,7 +5,7 @@
 
 This project is a client of OpenSTF REST API which enables controlling and managing devices in device farm from your browser. You can go and view the project from this link: https://github.com/openstf/stf
 
-You can use that client for test automation like using Appium framework.
+You can use that client with test automation frameworks like Appium.
 
 ### Download
 
