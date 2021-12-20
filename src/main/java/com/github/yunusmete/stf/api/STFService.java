@@ -2,12 +2,11 @@
 package com.github.yunusmete.stf.api;
 
 import com.github.yunusmete.stf.model.DeviceBody;
+import com.github.yunusmete.stf.rest.ClaimResponse;
+import com.github.yunusmete.stf.rest.DeviceResponse;
 import com.github.yunusmete.stf.rest.RemoteConnectResponse;
 import com.github.yunusmete.stf.rest.UserResponse;
 import retrofit.http.*;
-
-import com.github.yunusmete.stf.rest.ClaimResponse;
-import com.github.yunusmete.stf.rest.DeviceResponse;
 
 /**
  * Created by yunusm on 07.11.2016.
@@ -41,7 +40,7 @@ public interface STFService {
    ClaimResponse deleteDeviceBySerial(@Path("serial") String serial);
 
    @POST("/user/devices/{serial}/remoteConnect")
-   RemoteConnectResponse remoteConnectDeviceBySerial(@Path("serial") String serial);
+   RemoteConnectResponse remoteConnectDeviceBySerial(@Path("serial") String serial, @Body DeviceBody body);
 
    @DELETE("/user/devices/{serial}/remoteConnect")
    RemoteConnectResponse remoteDisconnectDeviceBySerial(@Path("serial") String serial);
